@@ -28,6 +28,7 @@ git branch -d dev
 ## Tell me how to checkout another branch without commit changes
 git stash
 git checkout test
+git stash pop
 
 ## Create an annotated tag with tagname (v1.7) .
 git tag v1.7
