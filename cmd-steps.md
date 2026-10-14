@@ -1,8 +1,15 @@
 ## Create two branches (dev & test)
-
+git branch -c dev
+git branch -c test
 
 ## Create one file on each branch, and push this changes to the remote repo.
+git switch dev
+git touch dev.txt
+git commit -m "add dev.txt"
 
+git switch test
+git touch test.txt
+git commit -m "add test.txt"
 
 ## Merge this changes on Main branch and then push it to your
 
